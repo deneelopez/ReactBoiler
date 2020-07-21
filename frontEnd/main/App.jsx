@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Main extends React.Component{
+class App extends React.Component{
   constructor(props){
     super(props)
     this.state ={
@@ -9,7 +9,11 @@ class Main extends React.Component{
     }
   }
 
-  render (){
+  componentDidMount() {
+
+  };
+
+  render() {
     return (
       <div>
         Hooked Up
@@ -18,4 +22,4 @@ class Main extends React.Component{
   }
 }
 
-export default Main;
+export default App;
